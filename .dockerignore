@@ -1,0 +1,18 @@
+# Artefatos de build local — contêm caminhos absolutos do SO host
+# que corrompem o build dentro do container Linux
+**/bin/
+**/obj/
+
+# Configurações locais e segredos
+**/.vs/
+**/.idea/
+**/*.user
+.env
+
+# Git
+.git/
+.gitignore
+
+# Docs e testes (não necessários para o build da API)
+**/TestResults/
+README.md
